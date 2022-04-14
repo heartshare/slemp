@@ -1,5 +1,5 @@
 ### SLEMP Panel
-Simple, Linux, Engine-X (Nginx via Opensresty), MySQL, PHP-FPM. Panel web sederhana untuk Centos Linux. Berisi perangkat lunak untuk kebutuhan server web yang dipasang dan dikonfigurasikan dari kode sumbernya (bukan paket bawaan distro). Terima kasih kepada BT.CN karena telah menulis perangkat lunak manajemen web yang begitu bagus. Setelah saya melihatnya, saya tahu ini adalah manajemen server berbasis web yang selalu saya inginkan. Saya menyalin antarmuka manajemen latar belakang dan menulis versi sesuai kebutuhan saya.
+Simple, Linux, Engine-X (Nginx via Opensresty), MySQL, PHP-FPM. Panel web sederhana untuk Centos Linux. Berisi perangkat lunak untuk kebutuhan server web yang dipasang dan dikonfigurasikan dari kode sumbernya (bukan paket bawaan distro). Terima kasih kepada BT.CN karena telah menulis perangkat lunak manajemen web yang begitu bagus. Setelah saya melihatnya, saya tahu ini adalah manajemen server berbasis web yang selalu saya inginkan. Saya menyalin antarmuka manajemennya dan menulis versi sesuai kebutuhan saya.
 
 
 * Pengoptimalan akses SSH
