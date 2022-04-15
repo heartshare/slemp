@@ -1,0 +1,19 @@
+{
+	"sort": 7,
+	"ps": "Bahasa pemrograman terbaik di dunia",
+	"shell": "install.sh",
+	"name": "php",
+	"title": "PHP",
+	"coexist": true,
+	"versions": ["56","74","81"],
+	"updates": ["5.6.36","7.4.8","8.1.0"],
+	"tip": "soft",
+	"checks": "server/php/VERSION/bin/php",
+	"path": "server/php/VERSION",
+	"display": 1,
+	"author": "Zend",
+	"date": "2017-04-01",
+	"home": "https://www.php.net",
+	"type": "Code management",
+	"pid": "1"
+}

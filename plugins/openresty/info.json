@@ -1,0 +1,16 @@
+{
+	"title":"OpenResty",
+	"tip":"soft",
+	"name":"openresty",
+	"type":"Operating environment",
+	"ps":"Webserver yang ringan, hemat RAM dan efisian",
+	"shell":"install.sh",
+	"checks":"server/openresty",
+	"path":"server/openresty",
+	"author":"agentzh",
+	"home":"http://openresty.org",
+	"date":"2017-11-24",
+	"pid": "1",
+	"versions": ["1.11.2.5", "1.13.6.2","1.15.8.3","1.19.3.1"],
+	"updates": ["1.11.2.5", "1.13.6.2","1.15.8.3","1.19.3.1"]
+}

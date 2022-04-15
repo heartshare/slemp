@@ -756,7 +756,7 @@ var lan = {
 		"success_txt":"Successfully created site",
 		"php_ver":"PHP version",
 		"site_add":"Add Site",
-		"domain":"domain name",
+		"domain":"Domain Name",
 		"port":"Port",
 		"note":"Note",
 		"note_ph":"Site Notes",
