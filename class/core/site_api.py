@@ -1493,7 +1493,7 @@ class site_api:
 
         slemp.writeFile(filename, conf)
         slemp.restartWeb()
-        slemp.writeLog('TYPE_SITE', 'SITE_NETLIMIT_OPEN_SUCCESS', (siteName,))
+        slemp.writeLog('Site manager', 'Pembatasan lalu lintas situs web [{1}] aktif!', (siteName,))
         return slemp.returnJson(True, 'Set successfully!')
 
     def closeLimitNet(self, sid):
