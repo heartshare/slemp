@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section id="features"></section>
-  
+
 ## Apa itu SLEMP?
 
 ### Penjelasan Singkat
@@ -38,7 +38,7 @@ Simple, Linux, Engine-X (Nginx via Opensresty), MySQL, PHP-FPM. Panel web sederh
 Pada dasarnya SLEMP Panel bisa digunakan dan akan terus dioptimalkan kedepannya! Fork dan komentar dipersilakan!
 
 <section id="install"></section>
-  
+
 ## Bagaimana cara pasang SLEMP?
 ### Persyaratan sistem
 * Memori: 128M atau lebih, disarankan 512M atau lebih
@@ -63,17 +63,17 @@ curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/update
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp.basoro.id/master/slemp.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/slemp.png" style="width:100%">
   <div class="text">Dashboard</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp.basoro.id/master/monitor.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/monitor.png" style="width:100%">
   <div class="text">Moniter Server</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp.basoro.id/master/firewall.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/firewall.png" style="width:100%">
   <div class="text">Pengaturan Firewall</div>
 </div>
 
@@ -81,9 +81,9 @@ curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/update
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 ## Umpan Balik dan Bantuan
