@@ -136,7 +136,7 @@ function getSList(isdisplay) {
 
             sBody += '<tr>' +
                 '<td>' + plugin_title + '</td>' +
-                '<td>' + plugin.ps + '</td>' +
+                '<td class="visible-lg visible-md visible-sm">' + plugin.ps + '</td>' +
                 //'<td>' + softPath + '</td>' +
                 '<td>' + state + '</td>' +
                 //'<td>' + indexshow + '</td>' +
