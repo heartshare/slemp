@@ -916,7 +916,7 @@ var lan = {
 		"bt_ssl_help_7":"Valid for 1 year, renewal is not supported, you need to re-apply after expiration",
 		"bt_ssl_help_8":"Let\'s Encrypt free certificate, valid for 3 months, supports multiple domain names. It will be automatically renewed by default",
 		"bt_ssl_help_9":"If your site uses a CDN or 301 redirection, the renewal will fail",
-		"bt_ssl_help_10":"Paste your *.key and *.pem content and save it <a href='http://www.bt.cn/bbs/thread-704-1-1.html' class= 'btlink' target='_blank'>[help]</a>.",
+		"bt_ssl_help_10":"Paste your *.key and *.pem content and save it <a href='http://slemp.basoro.id/docs/help-ssl' class= 'btlink' target='_blank'>[help]</a>.",
 		"phone_input":"Please enter the phone number",
 		"ssl_apply_1":"Submitting order, please wait...",
 		"ssl_apply_2":"Verifying the domain name, please wait...",
