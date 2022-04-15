@@ -664,7 +664,8 @@ function reBoot() {
 function repPanel() {
     layer.confirm(lan.index.rep_panel_msg, { title: lan.index.rep_panel_title, closeBtn: 2, icon: 3 }, function() {
         var loadT = layer.msg(lan.index.rep_panel_the, { icon: 16, time: 0, shade: [0.3, '#000'] });
-        $.get('/system?action=RepPanel', function(rdata) {
+        //$.get('/system?action=RepPanel', function(rdata) {
+        $.get('/system/reppanel', function(rdata) {
             layer.close(loadT);
             layer.msg(lan.index.rep_panel_ok, { icon: 1 });
         }).error(function() {

@@ -89,6 +89,10 @@ class system_api:
         data = self.getMemInfo()
         return slemp.getJson(data)
 
+    def reppanelApi(self):
+        self.repPanel()
+        return slemp.returnJson(True, 'Panel has reppaired!')
+
     # restart panel
     def restartApi(self):
         self.restartSlemp()
