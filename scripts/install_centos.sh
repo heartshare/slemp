@@ -70,11 +70,10 @@ systemctl stop firewalld
 yum install -y libevent libevent-devel mysql-devel libjpeg* libpng* gd* zip unzip libmcrypt libmcrypt-devel
 
 if [ ! -d /home/slemp/server/panel ];then
-	wget -O /tmp/master.zip https://codeload.github.com/basoro/slemp/zip/master
-	cd /tmp && unzip /tmp/master.zip
-	mv /tmp/slemp-master /home/slemp/server/panel
-	rm -rf /tmp/master.zip
-	rm -rf /tmp/slemp-master
+	wget -O /tmp/main.zip https://codeload.github.com/basoro/slemp/zip/main
+	cd /tmp && unzip /tmp/main.zip
+	mv /tmp/slemp-main /home/slemp/server/panel
+	rm -rf /tmp/main.zip
 fi
 
 yum groupinstall -y "Development Tools"

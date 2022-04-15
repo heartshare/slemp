@@ -25,11 +25,11 @@ brew install libzip bzip2 gcc openssl re2c cmake
 
 
 if [ ! -d $DEV/server/panel ]; then
-	wget -O /tmp/master.zip https://codeload.github.com/basoro/slemp/zip/master
-	cd /tmp && unzip /tmp/master.zip
-	mv /tmp/slemp-master $DEV/server/panel
-	rm -f /tmp/master.zip
-	rm -rf /tmp/slemp-master
+	wget -O /tmp/main.zip https://codeload.github.com/basoro/slemp/zip/main
+	cd /tmp && unzip /tmp/main.zip
+	mv /tmp/slemp-main $DEV/server/panel
+	rm -f /tmp/main.zip
+	rm -rf /tmp/slemp-main
 fi
 
 if [ ! -d $DEV/server/lib ]; then

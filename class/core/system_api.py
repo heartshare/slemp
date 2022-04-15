@@ -614,7 +614,7 @@ class system_api:
         return ret
 
     def getServerInfo(self):
-        upAddr = 'https://raw.githubusercontent.com/basoro/slemp/master/version/info.json'
+        upAddr = 'https://raw.githubusercontent.com/basoro/slemp/main/version/info.json'
         try:
             requests.adapters.DEFAULT_RETRIES = 2
             r = requests.get(upAddr, verify=False)
@@ -685,7 +685,7 @@ class system_api:
 
     # Repair panel
     def repPanel(self, get):
-        updateAddr = 'https://raw.githubusercontent.com/basoro/slemp/master'
+        updateAddr = 'https://raw.githubusercontent.com/basoro/slemp/main'
         #vp = ''
         #if slemp.readFile('/home/slemp/server/panel/class/common.py').find('checkSafe') != -1:
         #    vp = '_pro'

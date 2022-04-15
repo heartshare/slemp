@@ -37,10 +37,10 @@ fi
 
 
 if [ "$OSNAME" == 'MAC' ];then
-	curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/install_macos.sh | sh
+	curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/main/scripts/install_macos.sh | sh
 else
-	curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/install_centos.sh | sh
-fi 
+	curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/main/scripts/install_centos.sh | sh
+fi
 
 
 
