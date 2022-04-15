@@ -1,0 +1,23 @@
+<div class="bt-form">
+	<div class="bt-w-main">
+		<div class="bt-w-menu">
+			<p class="bgw" onclick="pluginService('rsyncd');">Status</p>
+			<p onclick="pluginInitD('rsyncd');">Service</p>
+			<p onclick="pluginConfig('rsyncd');">Configuration</p>
+			<p onclick="pluginConfig('rsyncd','','conf_pwd');">Key Configuration</p>
+			<p onclick="rsyncdReceive();">Receive configuration</p>
+			<p onclick="pluginLogs('rsyncd','','run_log');">Log</p>
+			<p onclick="rsRead()">Illustrate</p>
+		</div>
+		<div class="bt-w-con pd15">
+			<div class="soft-man-con"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+resetPluginWinWidth(700);
+$.getScript( "/plugins/file?name=rsyncd&f=js/rsyncd.js", function() {
+	pluginService('rsyncd');
+});
+</script>

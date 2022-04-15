@@ -1,0 +1,16 @@
+{
+	"id":3,
+	"title":"rsyncd",
+	"tip":"soft",
+	"name":"rsyncd",
+	"type":"Software",
+	"ps":"Rsyncd synchronization helper",
+	"versions":"1.0",
+	"shell":"install.sh",
+	"checks":"server/rsyncd",
+	"path": "server/rsyncd",
+	"author":"basoro",
+	"home":"https://rsync.samba.org/",
+	"date":"2019-03-05",
+	"pid":"4"
+}
