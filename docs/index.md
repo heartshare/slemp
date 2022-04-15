@@ -47,13 +47,13 @@ Pada dasarnya SLEMP Panel bisa digunakan dan akan terus dioptimalkan kedepannya!
 
 ### Perintah Pemasangan
 ```
-curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/basoro/slemp/main/scripts/install.sh | sh
 ```
 
 ### Perintah Pembaruan
 
 ```
-curl -fsSL  https://raw.githubusercontent.com/basoro/slemp/master/scripts/update.sh | sh
+curl -fsSL https://raw.githubusercontent.com/basoro/slemp/main/scripts/update.sh | sh
 ```
 
 <section id="screenshot"></section>
