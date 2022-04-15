@@ -467,7 +467,7 @@ setTimeout(function() {
     $.get('/system/update_server?type=check', function(rdata) {
         if (rdata.status == false) return;
         if (rdata.data != undefined) {
-            $("#toUpdate").html('<a class="btlink" href="javascript:updateMsg();">Renew</a>');
+            $("#toUpdate").html('<a class="btlink" href="javascript:updateMsg();">Renew X</a>');
             $('#toUpdate a').html('Renew<i style="display: inline-block; color: red; font-size: 40px;position: absolute;top: -35px; font-style: normal; right: -8px;">.</i>');
             $('#toUpdate a').css("position","relative");
             return;
