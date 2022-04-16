@@ -29,16 +29,16 @@ Install_mysql()
 		useradd -g mysql mysql
 	fi
 
-	if [ ! -f ${mysqlDir}/mysql-boost-5.7.32.tar.gz ];then
-		wget -O ${mysqlDir}/mysql-boost-5.7.32.tar.gz https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.32.tar.gz
+	if [ ! -f ${mysqlDir}/mysql-boost-5.7.26.tar.gz ];then
+		wget -O ${mysqlDir}/mysql-boost-5.7.26.tar.gz https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.26.tar.gz
 	fi
 
-	if [ ! -d ${mysqlDir}/mysql-5.7.32 ];then
-		 cd ${mysqlDir} && tar -zxvf  ${mysqlDir}/mysql-boost-5.7.32.tar.gz
+	if [ ! -d ${mysqlDir}/mysql-5.7.26 ];then
+		 cd ${mysqlDir} && tar -zxvf  ${mysqlDir}/mysql-boost-5.7.26.tar.gz
 	fi
 
 	if [ ! -d $serverPath/mysql ];then
-		cd ${mysqlDir}/mysql-5.7.32 && cmake \
+		cd ${mysqlDir}/mysql-5.7.26 && cmake \
 		-DCMAKE_INSTALL_PREFIX=$serverPath/mysql \
 		-DMYSQL_USER=mysql \
 		-DMYSQL_TCP_PORT=3306 \
@@ -52,7 +52,7 @@ Install_mysql()
 		-DDEFAULT_CHARSET=utf8 \
 		-DDEFAULT_COLLATION=utf8_general_ci \
 		-DDOWNLOAD_BOOST=1 \
-		-DWITH_BOOST=${mysqlDir}/mysql-5.7.32/boost/
+		-DWITH_BOOST=${mysqlDir}/mysql-5.7.26/boost/
 		make && make install && make clean
 		echo '5.7' > $serverPath/mysql/version.pl
 		echo 'The installation is complete' > $install_tmp

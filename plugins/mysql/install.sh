@@ -15,12 +15,12 @@ action=$1
 type=$2
 
 if [ "${2}" == "" ];then
-	echo '缺少安装脚本...' > $install_tmp
+	echo 'Missing installation script...' > $install_tmp
 	exit 0
-fi 
+fi
 
 if [ ! -d $curPath/versions/$2 ];then
-	echo '缺少安装脚本2...' > $install_tmp
+	echo 'Missing installation script 2...' > $install_tmp
 	exit 0
 fi
 

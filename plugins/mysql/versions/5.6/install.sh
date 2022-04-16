@@ -29,16 +29,16 @@ Install_mysql()
 		useradd -g mysql mysql
 	fi
 
-	if [ ! -f ${mysqlDir}/mysql-5.6.50.tar.gz ];then
-		wget -O ${mysqlDir}/mysql-5.6.50.tar.gz https://cdn.mysql.com/archives/mysql-5.6/mysql-5.6.50.tar.gz
+	if [ ! -f ${mysqlDir}/mysql-5.6.44.tar.gz ];then
+		wget -O ${mysqlDir}/mysql-5.6.44.tar.gz https://cdn.mysql.com/archives/mysql-5.6/mysql-5.6.44.tar.gz
 	fi
 
-	if [ ! -d ${mysqlDir}/mysql-5.6.50 ];then
-		 cd ${mysqlDir} && tar -zxvf  ${mysqlDir}/mysql-5.6.50.tar.gz
+	if [ ! -d ${mysqlDir}/mysql-5.6.44 ];then
+		 cd ${mysqlDir} && tar -zxvf  ${mysqlDir}/mysql-5.6.44.tar.gz
 	fi
 
 	if [ ! -d $serverPath/mysql ];then
-		cd ${mysqlDir}/mysql-5.6.50 && cmake \
+		cd ${mysqlDir}/mysql-5.6.44 && cmake \
 		-DCMAKE_INSTALL_PREFIX=$serverPath/mysql \
 		-DMYSQL_USER=mysql \
 		-DMYSQL_TCP_PORT=3306 \
