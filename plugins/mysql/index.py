@@ -1814,7 +1814,7 @@ if __name__ == "__main__":
     elif func == 'start':
         print(start(version))
     elif func == 'stop':
-        print(top(version))
+        print(stop(version))
     elif func == 'restart':
         print(restart(version))
     elif func == 'reload':
