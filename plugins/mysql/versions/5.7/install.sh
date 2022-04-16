@@ -27,6 +27,7 @@ Install_mysql()
 		touch /var/log/mariadb/mariadb.log
 		groupadd mysql
 		useradd -g mysql mysql
+		chown -R mysql:mysql /var/log/mariadb/*
 	fi
 
 	if [ ! -f ${mysqlDir}/mysql-boost-5.7.26.tar.gz ];then

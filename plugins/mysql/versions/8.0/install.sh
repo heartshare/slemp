@@ -28,6 +28,7 @@ Install_mysql()
 		touch /var/log/mariadb/mariadb.log
 		groupadd mysql
 		useradd -g mysql mysql
+		chown -R mysql:mysql /var/log/mariadb/*
 
 		yum install centos-release-scl-rh -y
 		yum install devtoolset-7-gcc devtoolset-7-gcc-c++ -y
