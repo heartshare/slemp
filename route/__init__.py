@@ -108,7 +108,7 @@ def publicObject(toObject, func, action=None, get=None):
             data = eval(efunc)
             return data
     except Exception as e:
-        data = {'msg': '访问异常:' + str(e) + '!', "status": False}
+        data = {'msg': 'Access exception:' + str(e) + '!', "status": False}
         return slemp.getJson(data)
 
 

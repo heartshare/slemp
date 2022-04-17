@@ -803,7 +803,7 @@ def syncGetDatabases():
         if psdb.add('name,username,password,accept,ps,addtime', (value[0], value[0], '', host, ps, addTime)):
             n += 1
 
-    msg = slemp.getInfo('本次共从服务器获取了{1}个数据库!', (str(n),))
+    msg = slemp.getInfo('This time, a total of {1} databases were obtained from the server!', (str(n),))
     return slemp.returnJson(True, msg)
 
 
