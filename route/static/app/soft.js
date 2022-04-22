@@ -10,7 +10,7 @@ function softMain(name, version) {
         layer.close(loadT);
         layer.open({
             type: 1,
-            area: '640px',
+            area: '1000px',
             title: name + '-' + version + "manage",
             closeBtn: 2,
             shift: 0,
