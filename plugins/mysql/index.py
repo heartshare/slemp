@@ -576,7 +576,7 @@ def setDbStatus():
             content = content.replace('[mysqld]\n', '[mysqld]\n' + c)
         n += 1
     slemp.writeFile(conFile, content)
-    return slemp.returnJson(True, '设置成功!')
+    return slemp.returnJson(True, 'Siapkan dengan sukses!')
 
 
 def isSqlError(mysqlMsg):
@@ -1112,7 +1112,7 @@ def setDbAccess():
     __createUser(dbname, name, password, access)
 
     psdb.where('username=?', (name,)).save('accept', (access,))
-    return slemp.returnJson(True, '设置成功!')
+    return slemp.returnJson(True, 'Siapkan dengan sukses!')
 
 
 def getDbInfo():

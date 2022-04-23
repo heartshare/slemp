@@ -5,7 +5,7 @@ LANG=en_US.UTF-8
 is64bit=`getconf LONG_BIT`
 
 if [ -f /etc/motd ];then
-    echo "Welcome to panel panel" > /etc/motd
+    echo "Welcome to SLEMP panel" > /etc/motd
 fi
 
 startTime=`date +%s`
