@@ -316,6 +316,7 @@ class config_api:
             data['ssl'] = ''
 
         data['site_count'] = slemp.M('sites').count()
+        file = slemp.getServerDir() + '/mysql/mysql.db'
         data['database_count'] = slemp.M('databases').count()
 
         data['username'] = slemp.M('users').where(
