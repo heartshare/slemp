@@ -41,8 +41,8 @@ Pada dasarnya SLEMP Panel bisa digunakan dan akan terus dioptimalkan kedepannya!
 
 ## Bagaimana cara pasang SLEMP?
 ### Persyaratan sistem
-* Memori: 128M atau lebih, disarankan 512M atau lebih
-* Disk: Setidaknya 4GB ruang disk kosong
+* Memori: Disarankan 1GB atau lebih
+* Disk: Setidaknya 10GB ruang disk kosong
 * Lainnya: Pastikan itu adalah sistem operasi yang bersih, tidak ada Apache / Nginx / PHP / MySQL / MariaDB yang diinstal sebelumnya.
 
 ### Perintah Pemasangan
