@@ -63,17 +63,17 @@ curl -fsSL https://raw.githubusercontent.com/basoro/slemp/main/scripts/update.sh
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/slemp.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/gh-pages/slemp.png" style="width:100%">
   <div class="text">Dashboard</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/monitor.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/gh-pages/monitor.png" style="width:100%">
   <div class="text">Moniter Server</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="https://raw.githubusercontent.com/basoro/slemp/main/docs/firewall.png" style="width:100%">
+  <img src="https://raw.githubusercontent.com/basoro/slemp/gh-pages/firewall.png" style="width:100%">
   <div class="text">Pengaturan Firewall</div>
 </div>
 
