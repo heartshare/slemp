@@ -107,7 +107,7 @@ class site_api:
 
         slemp.writeFile('data/defaultSite.pl', name)
         slemp.restartWeb()
-        return slemp.returnJson(True, '设置成功!')
+        return slemp.returnJson(True, 'Set up successfully!')
 
     def getDefaultSiteApi(self):
         data = {}
