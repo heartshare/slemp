@@ -983,31 +983,31 @@ function setIndexList(id){
 
 /*site modification*/
 function webEdit(id,website,endTime,addtime){
-	var eMenu = "<p onclick='dirBinding("+id+")' title='Subdirectory binding'>Subdirectory binding</p>"
-	+"<p onclick='webPathEdit("+id+")' title='website directory'>Website directory</p>"
-	+"<p onclick='limitNet("+id+")' title='Traffic restrictions'>Traffic restrictions</p>"
-	+"<p onclick=\"rewrite('"+website+"')\" title='Rewrite rule'>Rewrite rule</p>"
-	+"<p onclick='setIndexEdit("+id+")' title='Default document'>Default document</p>"
-	+"<p onclick=\"configFile('"+website+"')\" title='Configuration file'>Configuration</p>"
+	var eMenu = "<p onclick='dirBinding("+id+")' title='Subdirectory binding'>Binding</p>"
+	+"<p onclick='webPathEdit("+id+")' title='website directory'>Directory</p>"
+	+"<p onclick='limitNet("+id+")' title='Traffic restrictions'>Traffic</p>"
+	+"<p onclick=\"rewrite('"+website+"')\" title='Rewrite rule'>Rewrite</p>"
+	+"<p onclick='setIndexEdit("+id+")' title='Default document'>Default</p>"
+	+"<p onclick=\"configFile('"+website+"')\" title='Configuration file'>Config</p>"
 	+"<p onclick=\"setSSL("+id+",'"+website+"')\" title='SSL'>SSL</p>"
-	+"<p onclick=\"phpVersion('"+website+"')\" title='PHP version'>PHP version</p>"
+	+"<p onclick=\"phpVersion('"+website+"')\" title='PHP version'>PHP</p>"
 	// +"<p onclick=\"to301('"+website+"')\" title='Redirect'>Redirect</p>"
 	// +"<p onclick=\"proxyList('"+website+"')\" title='Reverse proxy'>Reverse proxy</p>"
-	+"<p id='site_"+id+"' onclick=\"security('"+id+"','"+website+"')\" title='Anti-theft chain'>Anti-theft chain</p>"
-	+"<p id='site_"+id+"' onclick=\"getSiteLogs('"+website+"')\" title='View site request logs'>Response log</p>";
+	+"<p id='site_"+id+"' onclick=\"security('"+id+"','"+website+"')\" title='Anti-theft chain'>Security</p>"
+	+"<p id='site_"+id+"' onclick=\"getSiteLogs('"+website+"')\" title='View site request logs'>Log</p>";
 	layer.open({
 		type: 1,
-		area: '640px',
+		area: '780px',
 		title: 'Site modification ['+website+']  --  add time ['+addtime+']',
 		closeBtn: 2,
 		shift: 0,
-		content: "<div class='bt-form'>"
-			+"<div class='bt-w-menu pull-left' style='height: 565px;'>"
-			+"	<p class='bgw'  onclick=\"domainEdit(" + id + ",'" + website + "')\">"+lan.site.domain_man+"</p>"
+		content: "<div class='bt-form'><div class='bt-w-main'>"
+			+"<div class='bt-w-menu'>"
+			+"	<p class='bgw'  onclick=\"domainEdit(" + id + ",'" + website + "')\">Domain</p>"
 			+"	"+eMenu+""
 			+"</div>"
 			+"<div id='webedit-con' class='bt-w-con webedit-con pd15'></div>"
-			+"</div>"
+			+"</div></div>"
 	});
 	domainEdit(id,website);
 	//Domain name input prompt
